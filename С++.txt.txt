@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    
+    int price1 = 21;
+    string productname1 = "Вода";
+    
+    int price2 = 10;
+    string productname2 = "Хліб";
+    
+    int price3 = 100;
+    string productname3 = "Торт";
+    
+    cout << "Продукт:"<<productname1<<", Ціна:"<<price1<<"грн."<<endl;
+    cout << "Продукт:"<<productname2<<", Ціна:"<<price2<<"грн."<<endl;
+    cout << "Продукт:"<<productname3<<", Ціна:"<<price3<<"грн."<<endl;
+
+    return 0;
+}
