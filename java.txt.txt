@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args){
+        int price1 = 21;
+        String productName1 = "Water";
+        
+        int price2 = 10;
+        String productName2 = "Bread";
+        
+        int price3 = 100;
+        String productName3 = "Cake";
+        
+        System.out.println("Product:"+ productName1 + ","+ "Price:"+ price1 + "UAH.");
+        System.out.println("Product:"+ productName2 + ","+ "Price:"+ price2 + "UAH.");
+        System.out.println("Product:"+ productName3 + ","+ "Price:"+ price3 + "UAH.");
+}
+    }
