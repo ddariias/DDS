@@ -1,0 +1,28 @@
+using System;
+using System.Text;
+using System.Globalization;
+
+class Program
+{
+    static void Main()
+{
+Console.OutputEncoding = Encoding.UTF8;
+
+CultureInfo ukrainianCulture = new CultureInfo("uk-UA");
+System.Threading.Thread.CurrentThread.CurrentCulture = ukrainianCulture;
+System.Threading.Thread.CurrentThread.CurrentUICulture = ukrainianCulture;
+
+int price1 = 21;
+string productName1 = "Вода";
+
+int price2 = 10;
+string productName2 = "Хліб";
+
+int price3 = 100;
+string productName3 = "Торт";
+
+Console.WriteLine("Продукт:"+productName1 +"Ціна:"+ price1 +"грн.");
+Console.WriteLine("Продукт:"+productName2 +"Ціна:"+ price2 +"грн.");
+Console.WriteLine("Продукт:"+productName3 +"Ціна:"+ price3 +"грн.");
+
+}}
